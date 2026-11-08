@@ -2,43 +2,67 @@
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
-    <title>Trang Chủ - My Web</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web - Trang Chủ</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>My Web</h1>
+        <div class="logo">✨ My<span>Web</span></div>
         <nav>
-            <a href="index.html">Trang chủ</a>
+            <a href="index.html" class="active">Trang chủ</a>
             <a href="gioithieu.html">Giới thiệu</a>
+            <a href="#" class="btn-nav">Liên hệ</a>
         </nav>
     </header>
 
-    <main>
-        <section class="hero">
-            <h2>Chào mừng đến với My Web</h2>
-            <p>Đây là trang web đầu tiên của tôi, được làm bằng HTML & CSS.</p>
-            <a href="gioithieu.html" class="btn">Xem giới thiệu</a>
-        </section>
+    <section class="hero">
+        <div class="hero-text">
+            <span class="badge">🔥 Chào mừng bạn đến với My Web</span>
+            <h1>Học Lập Trình<br><span class="gradient-text">Dễ Dàng & Thú Vị</span></h1>
+            <p>Trang web đầu tiên của mình, được làm bằng HTML & CSS. Đơn giản, nhanh và cực kỳ đẹp mắt.</p>
+            <div class="hero-btns">
+                <a href="gioithieu.html" class="btn-primary">Khám phá ngay →</a>
+                <a href="#" class="btn-secondary">▶ Xem video</a>
+            </div>
+            <div class="stats">
+                <div><b>100+</b><br><span>Học viên</span></div>
+                <div><b>50+</b><br><span>Bài học</span></div>
+                <div><b>4.9★</b><br><span>Đánh giá</span></div>
+            </div>
+        </div>
+        <div class="hero-img">
+            <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=600" alt="Code">
+            <div class="float-card">💻 Đang học HTML<br><small>Tiến độ 90%</small></div>
+        </div>
+    </section>
 
-        <section class="features">
+    <section class="features">
+        <h2>Tại sao chọn My Web?</h2>
+        <p class="sub">3 lý do khiến bạn sẽ thích trang web này</p>
+        <div class="cards">
             <div class="card">
-                <h3>🚀 Nhanh</h3>
-                <p>Tải trang siêu nhanh, nhẹ.</p>
+                <div class="icon">🚀</div>
+                <h3>Siêu Nhanh</h3>
+                <p>Tải trang trong 1 giây, không cần chờ đợi, trải nghiệm mượt mà.</p>
+            </div>
+            <div class="card hot">
+                <div class="tag">HOT</div>
+                <div class="icon">💡</div>
+                <h3>Dễ Học</h3>
+                <p>Code đơn giản, có ghi chú rõ ràng, người mới học cũng hiểu ngay.</p>
             </div>
             <div class="card">
-                <h3>💡 Đơn giản</h3>
-                <p>Dễ học, dễ sửa code.</p>
+                <div class="icon">📱</div>
+                <h3>Đẹp Mọi Thiết Bị</h3>
+                <p>Hiển thị đẹp trên cả điện thoại, máy tính bảng và laptop.</p>
             </div>
-            <div class="card">
-                <h3>📱 Đẹp</h3>
-                <p>Hiển thị tốt trên điện thoại.</p>
-            </div>
-        </section>
-    </main>
+        </div>
+    </section>
 
     <footer>
-        <p>© 2026 My Web - Made by Me</p>
+        <p>© 2026 My Web - Made with ❤️ by Me | Nha Trang</p>
     </footer>
 </body>
 </html>
